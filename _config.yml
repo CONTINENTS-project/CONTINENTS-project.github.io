@@ -21,7 +21,7 @@ author: CONTINENTS project
 ###############################################
 
 navbar-links:
-  About Me: "aboutcontinents"
+  About Me: "about"
   Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #    - Learn markdown: "https://www.markdowntutorial.com/"
