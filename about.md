@@ -1,0 +1,1 @@
+The CONTINENTS project is an EPSRC funded project, headed by [EPCC](https://www.epcc.ed.ac.uk/), the supercomputing centre at the University of Edinburgh, and in collaboration with the [National Centre for Atmospheric Science](https://ncas.ac.uk/) in the UK and the [National Center for Atmospheric Research](https://ncar.ucar.edu/) in the USA.
