@@ -4,6 +4,13 @@ The files for the CONTINENTS webpage.
 
 Install Ruby: https://www.ruby-lang.org/en/documentation/installation/
 
+Change gem install location, add to `~/.bash_rc` or equivalent:
+
+```bash
+export GEM_HOME="$HOME/.gems"
+export PATH="$HOME/.gems/bin:$PATH"
+```
+
 Install Bundler:
 
 ```bash
