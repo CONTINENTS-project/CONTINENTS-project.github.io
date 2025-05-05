@@ -21,7 +21,7 @@ author: CONTINENTS Project
 ###############################################
 
 navbar-links:
-  Webinars: "webinars"
+  # Webinars: "webinars"
   About us: "about"
 
 ################
