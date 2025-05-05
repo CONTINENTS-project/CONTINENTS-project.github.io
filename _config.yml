@@ -21,7 +21,7 @@ author: CONTINENTS Project
 ###############################################
 
 navbar-links:
-  Webinars: "webinars"
+  # Webinars: "webinars"
   About us: "about"
 
 ################
@@ -30,7 +30,8 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+# avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/atlantic.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -278,6 +279,7 @@ defaults:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
+      footer-extra: "footer-extra.html"
 
 # Exclude these files from production site
 exclude:
