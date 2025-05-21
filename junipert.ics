@@ -79,9 +79,9 @@ DESCRIPTION:This is a webinar event organised by the CONTINENTS <https://co
 	tps://www.ed.ac.uk/information-services/about/policies-and-regulations>  \
 	n_________________________________________________________________________
 	_______\n
-DTEND;TZID="GMT Standard Time":20250528T143000
+DTEND;TZID="GMT Standard Time":20250528T170000
 DTSTAMP:20250519T101431Z
-DTSTART;TZID="GMT Standard Time":20250528T143000
+DTSTART;TZID="GMT Standard Time":20250528T160000
 LAST-MODIFIED:20250519T104552Z
 LOCATION:Microsoft Teams Meeting
 ORGANIZER;CN="Rui Apostolo":mailto:R.Apostolo@epcc.ed.ac.uk
