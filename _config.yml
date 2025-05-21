@@ -22,7 +22,7 @@ author: CONTINENTS Project
 
 navbar-links:
   # Webinars: "webinars"
-  About us: "about"
+  About us: "/about"
 
 ################
 # --- Logo --- #
