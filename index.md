@@ -7,7 +7,16 @@ permalink: /
 
 # Next webinar
 
-**Date and Time**: [Wednesday, 28th of May at 16h BST](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CONTINENTS+Webinar&iso=20250528T16&p1=304&ah=1).
+**Date and Time**: [Thursday, 26th of May at 16h BST](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CONTINENTS+Webinar&iso=20250626T16&p1=304&ah=1).
+
+**Title**: Performance portability on novel energy efficient architectures: Feasible or fantasy?
+
+**Presenter**: [Nick Brown][nickb], [EPCC][epcc]
+
+**Abstract**:  
+TBC
+
+# Past webinars
 
 **Title**: Towards Safe and Fearless Lossy Compression of Weather and Climate Model Data
 
@@ -20,9 +29,10 @@ As part of the [EuroHPC ESiWACE, Phase 3, Centre of Excellence](https://www.esiw
 
 We believe that trusting lossy data compression requires convincing yourself by trying it out, on your own data, with your own analyses. We have thus developed an [open science online laboratory](https://lab.climet.eu) in which anyone can [conveniently explore data compression](https://compression.lab.climet.eu) without any setup. We provide this online laboratory as a service to the community to share computational examples, host interactive code documentation and research results, compression-related or not. We will provide a short live demonstration of this laboratory during the presentation.
 
-[**Download calendar invite**](junipert.ics)
+Recording -- Available soon  
+[Slides][slides_juniper]
 
-# Past webinars
+---
 
 **Title:** The Ai2 Climate Emulator: Capabilities, Challenges and Opportunities
 
@@ -49,8 +59,10 @@ Earth system models are crucial for simulating environmental processes but deman
 ---
 
 [comment]: # Links
+[nickb]: https://www.epcc.ed.ac.uk/about-us/our-team/dr-nick-brown
 [junipert]: https://researchportal.helsinki.fi/en/persons/juniper-tyree
 [uhelsinki]: https://www.helsinki.fi/en/inar
+[slides_juniper]: webinar_slides/2025-05-28_Juniper_Tyree.pdf
 [oliverwm]: https://oliverwm1.github.io/
 [allenai]: https://allenai.org/
 [slides_oliver]: webinar_slides/2025-04-22_Oliver_Watt-Meyer.pdf
