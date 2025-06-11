@@ -16,6 +16,8 @@ permalink: /
 **Abstract**:  
 TBC
 
+[Download calendar invite](nickb.ics)
+
 # Past webinars
 
 **Title**: Towards Safe and Fearless Lossy Compression of Weather and Climate Model Data
@@ -29,7 +31,7 @@ As part of the [EuroHPC ESiWACE, Phase 3, Centre of Excellence](https://www.esiw
 
 We believe that trusting lossy data compression requires convincing yourself by trying it out, on your own data, with your own analyses. We have thus developed an [open science online laboratory](https://lab.climet.eu) in which anyone can [conveniently explore data compression](https://compression.lab.climet.eu) without any setup. We provide this online laboratory as a service to the community to share computational examples, host interactive code documentation and research results, compression-related or not. We will provide a short live demonstration of this laboratory during the presentation.
 
-Recording -- Available soon  
+[Recording][recording_juniper]  
 [Slides][slides_juniper]
 
 ---
@@ -62,6 +64,7 @@ Earth system models are crucial for simulating environmental processes but deman
 [nickb]: https://www.epcc.ed.ac.uk/about-us/our-team/dr-nick-brown
 [junipert]: https://researchportal.helsinki.fi/en/persons/juniper-tyree
 [uhelsinki]: https://www.helsinki.fi/en/inar
+[recording_juniper]: https://media.ed.ac.uk/media/t/1_ac1aq92p
 [slides_juniper]: webinar_slides/2025-05-28_Juniper_Tyree.pdf
 [oliverwm]: https://oliverwm1.github.io/
 [allenai]: https://allenai.org/
