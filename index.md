@@ -14,7 +14,14 @@ permalink: /
 **Presenter**: [Nick Brown][nickb], [EPCC][epcc]
 
 **Abstract**:  
-TBC
+Whilst specialised hardware, often designed for AI, has the potential to provide significant performance and energy efficiency benefits, the programming of such technologies is far from simple.
+Often involving new concepts and APIs, this requires at the very least expertise of the target hardware and significant changes to a code base - and not infrequently entire rewriting of kernels in new languages.
+
+In short, scientific programmers have neither the expertise or inclination to port their codes to these specialist hardware, especially because work done targeting one architecture is often rather different from that required to target another.
+Consequently, these programmability challenges are a major barrier to the HPC community gaining improved performance and/or energy efficiency.
+
+In this talk I will describe work done in the compiler space, using MLIR, to address these programmability challenges.
+By leveraging a composable compiler ecosystem, it is possible to more easily drive optimisations for these future architectures from existing languages and programming models such as extracting domain specific abstractions from code and leveraging OpenMP.
 
 [Download calendar invite](nickb.ics)
 
