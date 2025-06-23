@@ -7,7 +7,7 @@ permalink: /
 
 # Next webinar
 
-**Date and Time**: [Thursday, 26th of May at 16h BST](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CONTINENTS+Webinar&iso=20250626T16&p1=304&ah=1).
+**Date and Time**: [Thursday, 26th of June at 16h BST](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CONTINENTS+Webinar&iso=20250626T16&p1=304&ah=1).
 
 **Title**: Performance portability on novel energy efficient architectures: Feasible or fantasy?
 
