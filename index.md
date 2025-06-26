@@ -7,7 +7,23 @@ permalink: /
 
 # Next webinar
 
-**Date and Time**: [Thursday, 26th of June at 16h BST](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CONTINENTS+Webinar&iso=20250626T16&p1=304&ah=1).
+**Date and Time**: [Wednesday, 30th of July at 17h BST](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CONTINENTS+Webinar&iso=20250730T17&p1=304&ah=1).
+
+**Title**: Writing a complex atmosphere model, for a complex group of people, to run on complex architectures
+
+**Presenter**s: [Luca Bertagna][lucab], [Sandia National Laboratories][SNL] and [Aaron Donahue][aarond], [Lawrence Livermore National Laboratory][LLNL].
+
+**Abstract**:  
+EAMxx is the new atmosphere component of E3SM, the DOE flagship Earth System model.
+It was built over a decade of work, starting by rewriting the spectral element dycore in C++, using the Kokkos library for on-node parallelism.
+Following the dycore success, the whole atmosphere component was rewritten from scratch, including most of the physics parametrizations, as well as a full overhaul of the software infrastructure.
+
+In this presentation we will discuss the choices behind the design of EAMxx.
+We will discuss the clash of perspectives between software developers and domain scientists, the complex nonlinear iterations in the design and development cycles resulting from compromising the two point of views, and how software abstractions have helped in this process.
+
+A calendar invite will be available for download soon.
+
+# Past webinars
 
 **Title**: Performance portability on novel energy efficient architectures: Feasible or fantasy?
 
@@ -23,9 +39,9 @@ Consequently, these programmability challenges are a major barrier to the HPC co
 In this talk I will describe work done in the compiler space, using MLIR, to address these programmability challenges.
 By leveraging a composable compiler ecosystem, it is possible to more easily drive optimisations for these future architectures from existing languages and programming models such as extracting domain specific abstractions from code and leveraging OpenMP.
 
-[Download calendar invite](nickb.ics)
+Slides and recording will be available soon.
 
-# Past webinars
+---
 
 **Title**: Towards Safe and Fearless Lossy Compression of Weather and Climate Model Data
 
@@ -68,6 +84,10 @@ Earth system models are crucial for simulating environmental processes but deman
 ---
 
 [comment]: # Links
+[lucab]: https://www.sandia.gov/ccr/staff/luca-bertagna
+[SNL]: https://www.sandia.gov/
+[aarond]: https://people.llnl.gov/donahue5
+[LLNL]: https://www.llnl.gov/
 [nickb]: https://www.epcc.ed.ac.uk/about-us/our-team/dr-nick-brown
 [junipert]: https://researchportal.helsinki.fi/en/persons/juniper-tyree
 [uhelsinki]: https://www.helsinki.fi/en/inar
