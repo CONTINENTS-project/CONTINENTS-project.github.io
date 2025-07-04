@@ -21,11 +21,11 @@ Following the dycore success, the whole atmosphere component was rewritten from 
 In this presentation we will discuss the choices behind the design of EAMxx.
 We will discuss the clash of perspectives between software developers and domain scientists, the complex nonlinear iterations in the design and development cycles resulting from compromising the two point of views, and how software abstractions have helped in this process.
 
-A calendar invite will be available for download soon.
+[Download the calendar invite here](continents.ics).
 
 # Past webinars
 
-**Title**: Performance portability on novel energy efficient architectures: Feasible or fantasy?
+**Title**: Performance portability on novel energy efficient architectures: feasible or fantasy?
 
 **Presenter**: [Nick Brown][nickb], [EPCC][epcc]
 
