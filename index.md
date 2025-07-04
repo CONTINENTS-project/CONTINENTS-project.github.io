@@ -39,7 +39,8 @@ Consequently, these programmability challenges are a major barrier to the HPC co
 In this talk I will describe work done in the compiler space, using MLIR, to address these programmability challenges.
 By leveraging a composable compiler ecosystem, it is possible to more easily drive optimisations for these future architectures from existing languages and programming models such as extracting domain specific abstractions from code and leveraging OpenMP.
 
-Slides and recording will be available soon.
+[Recording][recording_nick]  
+[Slides][slides_nick]
 
 ---
 
@@ -89,15 +90,17 @@ Earth system models are crucial for simulating environmental processes but deman
 [aarond]: https://people.llnl.gov/donahue5
 [LLNL]: https://www.llnl.gov/
 [nickb]: https://www.epcc.ed.ac.uk/about-us/our-team/dr-nick-brown
+[recording_nick]: https://media.ed.ac.uk/media/1_kpgo8jcg
+[slides_nick]: webinar_slides/2025-06-26_Nick_Brown.pdf
 [junipert]: https://researchportal.helsinki.fi/en/persons/juniper-tyree
 [uhelsinki]: https://www.helsinki.fi/en/inar
-[recording_juniper]: https://media.ed.ac.uk/media/t/1_ac1aq92p
+[recording_juniper]: https://media.ed.ac.uk/media/1_ac1aq92p
 [slides_juniper]: webinar_slides/2025-05-28_Juniper_Tyree.pdf
 [oliverwm]: https://oliverwm1.github.io/
 [allenai]: https://allenai.org/
 [slides_oliver]: webinar_slides/2025-04-22_Oliver_Watt-Meyer.pdf
-[recording_oliver]: https://media.ed.ac.uk/media/t/1_m2one45k
+[recording_oliver]: https://media.ed.ac.uk/media/1_m2one45k
 [justsz]: https://www.epcc.ed.ac.uk/about-us/our-team/dr-justs-zarins
 [epcc]: https://www.epcc.ed.ac.uk/
 [slides_justs]: webinar_slides/2025-03-13_Justs_Zarins.pdf
-[recording_justs]: https://media.ed.ac.uk/media/t/1_hh95pqmp
+[recording_justs]: https://media.ed.ac.uk/media/1_hh95pqmp
