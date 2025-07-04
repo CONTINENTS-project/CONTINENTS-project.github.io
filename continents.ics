@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/London
+LAST-MODIFIED:20240422T053450Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/London
+X-LIC-LOCATION:Europe/London
+BEGIN:DAYLIGHT
+TZNAME:BST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:GMT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20250704T151327Z
+UID:1751641946299-23886@ical.marudot.com
+DTSTART;TZID=Europe/London:20250730T170000
+DTEND;TZID=Europe/London:20250730T180000
+SUMMARY:CONTINENTS Webinar
+URL:https://continents-project.github.io/
+DESCRIPTION:For this CONTINENTS seminar\, we will have Luca Bertagna\, Sandia National Laboratories and Aaron Donahue\, Lawrence Livermore National Laboratory presenting a seminar titled: "Writing a complex atmosphere model\, for a complex group of people\, to run on complex architectures".\n\nAbstract:\nEAMxx is the new atmosphere component of E3SM\, the DOE flagship Earth System model. It was built over a decade of work\, starting by rewriting the spectral element dycore in C++\, using the Kokkos library for on-node parallelism. Following the dycore success\, the whole atmosphere component was rewritten from scratch\, including most of the physics parametrizations\, as well as a full overhaul of the software infrastructure.\nIn this presentation we will discuss the choices behind the design of EAMxx. We will discuss the clash of perspectives between software developers and domain scientists\, the complex nonlinear iterations in the design and development cycles resulting from compromising the two point of views\, and how software abstractions have helped in this process.\n\n________________________________________________________________________________\nMicrosoft Teams Need help?\nJoin the meeting now\nMeeting ID: 364 121 988 491 5\nPasscode: m256gS35\nDial in by phone\n+44 20 3855 5143\,\,965620115# United Kingdom\, City of London\nFind a local number\nPhone conference ID: 965 620 115#\nFor organisers: Meeting options | Reset dial-in PIN\n\nThe University of Edinburgh is a charitable body\, registered in Scotland\, with registration number SC005336. Is e buidheann carthannais a th’ ann an Oilthigh Dhùn Èideann\, clàraichte an Alba\, àireamh clàraidh SC005336.\nOrg help | Privacy and security\n________________________________________________________________________________
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+END:VCALENDAR
