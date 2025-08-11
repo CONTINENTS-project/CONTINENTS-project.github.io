@@ -5,6 +5,7 @@ subtitle: International Centre-to-Centre Collaboration Project
 permalink: /
 ---
 
+{% comment %}
 # Next webinar
 
 **Date and Time**: [Wednesday, 30th of July at 17h BST](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CONTINENTS+Webinar&iso=20250730T17&p1=304&ah=1).
@@ -22,8 +23,27 @@ In this presentation we will discuss the choices behind the design of EAMxx.
 We will discuss the clash of perspectives between software developers and domain scientists, the complex nonlinear iterations in the design and development cycles resulting from compromising the two point of views, and how software abstractions have helped in this process.
 
 [Download the calendar invite here](continents.ics).
+{% endcomment %}
 
 # Past webinars
+
+**Title**: Writing a complex atmosphere model, for a complex group of people, to run on complex architectures
+
+**Presenter**s: [Luca Bertagna][lucab], [Sandia National Laboratories][SNL] and [Aaron Donahue][aarond], [Lawrence Livermore National Laboratory][LLNL].
+
+**Abstract**:  
+EAMxx is the new atmosphere component of E3SM, the DOE flagship Earth System model.
+It was built over a decade of work, starting by rewriting the spectral element dycore in C++, using the Kokkos library for on-node parallelism.
+Following the dycore success, the whole atmosphere component was rewritten from scratch, including most of the physics parametrizations, as well as a full overhaul of the software infrastructure.
+
+In this presentation we will discuss the choices behind the design of EAMxx.
+We will discuss the clash of perspectives between software developers and domain scientists, the complex nonlinear iterations in the design and development cycles resulting from compromising the two point of views, and how software abstractions have helped in this process.
+
+Recording will be available soon
+
+[Slides][slides_luca]
+
+---
 
 **Title**: Performance portability on novel energy efficient architectures: feasible or fantasy?
 
@@ -87,6 +107,7 @@ Earth system models are crucial for simulating environmental processes but deman
 [comment]: # Links
 [lucab]: https://www.sandia.gov/ccr/staff/luca-bertagna
 [SNL]: https://www.sandia.gov/
+[slides_luca]: webinar_slides/2025-07-30_Luca_Bertagna.pdf
 [aarond]: https://people.llnl.gov/donahue5
 [LLNL]: https://www.llnl.gov/
 [nickb]: https://www.epcc.ed.ac.uk/about-us/our-team/dr-nick-brown
