@@ -39,8 +39,7 @@ Following the dycore success, the whole atmosphere component was rewritten from 
 In this presentation we will discuss the choices behind the design of EAMxx.
 We will discuss the clash of perspectives between software developers and domain scientists, the complex nonlinear iterations in the design and development cycles resulting from compromising the two point of views, and how software abstractions have helped in this process.
 
-Recording will be available soon
-
+[Recording][recording_luca]  
 [Slides][slides_luca]
 
 ---
@@ -107,6 +106,7 @@ Earth system models are crucial for simulating environmental processes but deman
 [comment]: # Links
 [lucab]: https://www.sandia.gov/ccr/staff/luca-bertagna
 [SNL]: https://www.sandia.gov/
+[recording_luca]: https://media.ed.ac.uk/media/t/1_qjhbcpwt
 [slides_luca]: webinar_slides/2025-07-30_Luca_Bertagna.pdf
 [aarond]: https://people.llnl.gov/donahue5
 [LLNL]: https://www.llnl.gov/
