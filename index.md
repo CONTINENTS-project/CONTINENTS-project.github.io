@@ -5,25 +5,24 @@ subtitle: International Centre-to-Centre Collaboration Project
 permalink: /
 ---
 
-{% comment %}
 # Next webinar
 
-**Date and Time**: [Wednesday, 30th of July at 17h BST](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CONTINENTS+Webinar&iso=20250730T17&p1=304&ah=1).
+**Date and Time**: [Wednesday, 12th of November at 15h30 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CONTINENTS+Webinar&iso=20251112T1530&p1=304&ah=1).
 
-**Title**: Writing a complex atmosphere model, for a complex group of people, to run on complex architectures
+**Title**: Earth Embeddings: Learning Concept Maps in Neural Nets
 
-**Presenter**s: [Luca Bertagna][lucab], [Sandia National Laboratories][SNL] and [Aaron Donahue][aarond], [Lawrence Livermore National Laboratory][LLNL].
+**Presenter**s: [Marc Rußwurm][marcr], [Wageningen University & Research][wur].
 
 **Abstract**:  
-EAMxx is the new atmosphere component of E3SM, the DOE flagship Earth System model.
-It was built over a decade of work, starting by rewriting the spectral element dycore in C++, using the Kokkos library for on-node parallelism.
-Following the dycore success, the whole atmosphere component was rewritten from scratch, including most of the physics parametrizations, as well as a full overhaul of the software infrastructure.
+What makes a specific location unique? Traditional geospatial variables like temperature, land cover, or precipitation only tell part of the story — they are incomplete, coarse, and often hard to measure.
+Instead, we can train AI to learn implicit representations of the planet directly from imagery and context.
+This talk explores how geolocalization can serve as a powerful self-supervised training objective to build Earth Embeddings — dense, multimodal representations of the planet stored in neural networks.
+By training models to play Satellite GeoGuessr, we teach them to infer a location’s coordinates from its visual appearance, forcing the network to capture the underlying environmental and societal patterns that make each place distinct.
+The talk introduces two approaches: (1) neural location encoders, networks that map coordinates to continuous geospatial signals stored within network weights, and (2) SatCLIP Earth Embeddings, which align imagery and geolocation contrastively to produce rich embeddings encoding each location’s visual and contextual signature.
+These learned concept maps act as a shared embedding space for environmental understanding — directly integrable into AI systems as location tokens or into scientific models as compact, learned representations of Earth.
 
-In this presentation we will discuss the choices behind the design of EAMxx.
-We will discuss the clash of perspectives between software developers and domain scientists, the complex nonlinear iterations in the design and development cycles resulting from compromising the two point of views, and how software abstractions have helped in this process.
 
 [Download the calendar invite here](continents.ics).
-{% endcomment %}
 
 # Past webinars
 
@@ -104,6 +103,8 @@ Earth system models are crucial for simulating environmental processes but deman
 ---
 
 [comment]: # Links
+[marcr]: https://marcrusswurm.com/
+[wur]: https://www.wur.nl/en.htm
 [lucab]: https://www.sandia.gov/ccr/staff/luca-bertagna
 [SNL]: https://www.sandia.gov/
 [recording_luca]: https://media.ed.ac.uk/media/t/1_qjhbcpwt
