@@ -23,12 +23,14 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20251024T140530Z
+DTSTAMP:20251024T160151Z
 UID:1761314703818-57196@ical.marudot.com
 DTSTART;TZID=Europe/London:20251112T153000
 DTEND;TZID=Europe/London:20251112T163000
 SUMMARY:CONTINENTS Webinar
+URL:https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGQ5NjUxMjEtNDBjZi00MjhjLWI5MzYtYTJjYjY3ZjM4ZWJk%40thread.v2/0?context=%7b%22Tid%22%3a%222e9f06b0-1669-4589-8789-10a06934dc61%22%2c%22Oid%22%3a%224eadb54a-a580-48a9-bb33-e85b9b62c7d1%22%7d
 DESCRIPTION:For this CONTINENTS seminar\, we will have Marc Rußwurm from Wageningen University\, presenting a seminar titled: "Earth Embeddings: Learning Concept Maps in Neural Nets"\n\nAbstract:\nWhat makes a specific location unique? Traditional geospatial variables like temperature\, land cover\, or precipitation only tell part of the story — they are incomplete\, coarse\, and often hard to measure. Instead\, we can train AI to learn implicit representations of the planet directly from imagery and context. This talk explores how geolocalization can serve as a powerful self-supervised training objective to build Earth Embeddings — dense\, multimodal representations of the planet stored in neural networks. By training models to play Satellite GeoGuessr\, we teach them to infer a location’s coordinates from its visual appearance\, forcing the network to capture the underlying environmental and societal patterns that make each place distinct. The talk introduces two approaches: (1) neural location encoders\, networks that map coordinates to continuous geospatial signals stored within network weights\, and (2) SatCLIP Earth Embeddings\, which align imagery and geolocation contrastively to produce rich embeddings encoding each location’s visual and contextual signature. These learned concept maps act as a shared embedding space for environmental understanding — directly integrable into AI systems as location tokens or into scientific models as compact\, learned representations of Earth.\n\n\nLink to join the Microsoft Teams meeting:\nhttps://teams.microsoft.com/l/meetup-join/19%3ameeting_MGQ5NjUxMjEtNDBjZi00MjhjLWI5MzYtYTJjYjY3ZjM4ZWJk%40thread.v2/0?context=%7b%22Tid%22%3a%222e9f06b0-1669-4589-8789-10a06934dc61%22%2c%22Oid%22%3a%224eadb54a-a580-48a9-bb33-e85b9b62c7d1%22%7d\n\n________________________________________________________________________________\nMicrosoft Teams\nMeeting ID: 353 428 329 883 6\nPasscode: F9Pi2Az9\nDial in by phone\n+44 20 3855 5143\,\,168223781# United Kingdom\, City of London\nPhone conference ID: 168 223 781#
+LOCATION:https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGQ5NjUxMjEtNDBjZi00MjhjLWI5MzYtYTJjYjY3ZjM4ZWJk%40thread.v2/0?context=%7b%22Tid%22%3a%222e9f06b0-1669-4589-8789-10a06934dc61%22%2c%22Oid%22%3a%224eadb54a-a580-48a9-bb33-e85b9b62c7d1%22%7d
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 END:VEVENT
