@@ -11,7 +11,7 @@ permalink: /
 
 **Title**: Earth Embeddings: Learning Concept Maps in Neural Nets
 
-**Presenter**s: [Marc Rußwurm][marcr], [Wageningen University & Research][wur].
+**Presenter**: [Marc Rußwurm][marcr], [Wageningen University & Research][wur].
 
 **Abstract**:  
 What makes a specific location unique? Traditional geospatial variables like temperature, land cover, or precipitation only tell part of the story — they are incomplete, coarse, and often hard to measure.
