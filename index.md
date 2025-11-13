@@ -32,7 +32,7 @@ These learned concept maps act as a shared embedding space for environmental und
 
 **Title**: Earth Embeddings: Learning Concept Maps in Neural Nets
 
-**Presenters**: [Marc Rußwurm][marcr], [Wageningen University & Research][WUR].
+**Presenter**: [Marc Rußwurm][marcr], [Wageningen University & Research][WUR].
 
 **Abstract**:  
 What makes a specific location unique? Traditional geospatial variables like temperature, land cover, or precipitation only tell part of the story — they are incomplete, coarse, and often hard to measure.
@@ -44,9 +44,7 @@ These learned concept maps act as a shared embedding space for environmental und
 
 Recording and slides will be made available soon.
 
-{% comment %}
 [Recording][recording_marcr]  
-{% endcomment %}
 [Slides][slides_marcr]
 
 ---
@@ -128,10 +126,8 @@ Earth system models are crucial for simulating environmental processes but deman
 ---
 
 [comment]: # Links
-{% comment %}
-[recording_markr]: 
-{% endcomment %}
-[slides_markr]: webinar_slides/2025-11-12_Marc_Russwurm.pdf
+[recording_marcr]: https://media.ed.ac.uk/media/t/1_ha5f4r5w
+[slides_marcr]: webinar_slides/2025-11-12_Marc_Russwurm.pdf
 [marcr]: https://marcrusswurm.com/
 [WUR]: https://www.wur.nl/en.htm
 [lucab]: https://www.sandia.gov/ccr/staff/luca-bertagna
