@@ -13,7 +13,7 @@ permalink: /
 
 **Title**: Earth Embeddings: Learning Concept Maps in Neural Nets
 
-**Presenter**: [Marc Rußwurm][marcr], [Wageningen University & Research][wur].
+**Presenter**: [Marc Rußwurm][marcr], [Wageningen University & Research][WUR].
 
 **Abstract**:  
 What makes a specific location unique? Traditional geospatial variables like temperature, land cover, or precipitation only tell part of the story — they are incomplete, coarse, and often hard to measure.
@@ -30,11 +30,9 @@ These learned concept maps act as a shared embedding space for environmental und
 
 # Past webinars
 
-**Date and Time**: [Wednesday, 12th of November at 15h30 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CONTINENTS+Webinar&iso=20251112T1530&p1=304&ah=1).
-
 **Title**: Earth Embeddings: Learning Concept Maps in Neural Nets
 
-**Presenter**s: [Marc Rußwurm][marcr], [Wageningen University & Research][wur].
+**Presenters**: [Marc Rußwurm][marcr], [Wageningen University & Research][WUR].
 
 **Abstract**:  
 What makes a specific location unique? Traditional geospatial variables like temperature, land cover, or precipitation only tell part of the story — they are incomplete, coarse, and often hard to measure.
@@ -48,14 +46,14 @@ Recording and slides will be made available soon.
 
 {% comment %}
 [Recording][recording_marcr]  
-[Slides][slides_marcr]
 {% endcomment %}
+[Slides][slides_marcr]
 
 ---
 
 **Title**: Writing a complex atmosphere model, for a complex group of people, to run on complex architectures
 
-**Presenter**s: [Luca Bertagna][lucab], [Sandia National Laboratories][SNL] and [Aaron Donahue][aarond], [Lawrence Livermore National Laboratory][LLNL].
+**Presenters**: [Luca Bertagna][lucab], [Sandia National Laboratories][SNL] and [Aaron Donahue][aarond], [Lawrence Livermore National Laboratory][LLNL].
 
 **Abstract**:  
 EAMxx is the new atmosphere component of E3SM, the DOE flagship Earth System model.
@@ -132,10 +130,10 @@ Earth system models are crucial for simulating environmental processes but deman
 [comment]: # Links
 {% comment %}
 [recording_markr]: 
-[slides_markr]: 
 {% endcomment %}
+[slides_markr]: webinar_slides/2025-11-12_Marc_Russwurm.pdf
 [marcr]: https://marcrusswurm.com/
-[wur]: https://www.wur.nl/en.htm
+[WUR]: https://www.wur.nl/en.htm
 [lucab]: https://www.sandia.gov/ccr/staff/luca-bertagna
 [SNL]: https://www.sandia.gov/
 [recording_luca]: https://media.ed.ac.uk/media/t/1_qjhbcpwt
