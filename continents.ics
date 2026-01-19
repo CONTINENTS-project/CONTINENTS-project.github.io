@@ -4,7 +4,7 @@ PRODID:-//ical.marudot.com//iCal Event Maker
 CALSCALE:GREGORIAN
 BEGIN:VTIMEZONE
 TZID:Europe/London
-LAST-MODIFIED:20240422T053450Z
+LAST-MODIFIED:20250410T142247Z
 TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/London
 X-LIC-LOCATION:Europe/London
 BEGIN:DAYLIGHT
@@ -23,14 +23,12 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20251024T160151Z
-UID:1761314703818-57196@ical.marudot.com
-DTSTART;TZID=Europe/London:20251112T153000
-DTEND;TZID=Europe/London:20251112T163000
+DTSTAMP:20260119T141811Z
+UID:1768832160270-12596@ical.marudot.com
+DTSTART;TZID=Europe/London:20260128T150000
+DTEND;TZID=Europe/London:20260128T160000
 SUMMARY:CONTINENTS Webinar
-URL:https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGQ5NjUxMjEtNDBjZi00MjhjLWI5MzYtYTJjYjY3ZjM4ZWJk%40thread.v2/0?context=%7b%22Tid%22%3a%222e9f06b0-1669-4589-8789-10a06934dc61%22%2c%22Oid%22%3a%224eadb54a-a580-48a9-bb33-e85b9b62c7d1%22%7d
-DESCRIPTION:For this CONTINENTS seminar\, we will have Marc Rußwurm from Wageningen University\, presenting a seminar titled: "Earth Embeddings: Learning Concept Maps in Neural Nets"\n\nAbstract:\nWhat makes a specific location unique? Traditional geospatial variables like temperature\, land cover\, or precipitation only tell part of the story — they are incomplete\, coarse\, and often hard to measure. Instead\, we can train AI to learn implicit representations of the planet directly from imagery and context. This talk explores how geolocalization can serve as a powerful self-supervised training objective to build Earth Embeddings — dense\, multimodal representations of the planet stored in neural networks. By training models to play Satellite GeoGuessr\, we teach them to infer a location’s coordinates from its visual appearance\, forcing the network to capture the underlying environmental and societal patterns that make each place distinct. The talk introduces two approaches: (1) neural location encoders\, networks that map coordinates to continuous geospatial signals stored within network weights\, and (2) SatCLIP Earth Embeddings\, which align imagery and geolocation contrastively to produce rich embeddings encoding each location’s visual and contextual signature. These learned concept maps act as a shared embedding space for environmental understanding — directly integrable into AI systems as location tokens or into scientific models as compact\, learned representations of Earth.\n\n\nLink to join the Microsoft Teams meeting:\nhttps://teams.microsoft.com/l/meetup-join/19%3ameeting_MGQ5NjUxMjEtNDBjZi00MjhjLWI5MzYtYTJjYjY3ZjM4ZWJk%40thread.v2/0?context=%7b%22Tid%22%3a%222e9f06b0-1669-4589-8789-10a06934dc61%22%2c%22Oid%22%3a%224eadb54a-a580-48a9-bb33-e85b9b62c7d1%22%7d\n\n________________________________________________________________________________\nMicrosoft Teams\nMeeting ID: 353 428 329 883 6\nPasscode: F9Pi2Az9\nDial in by phone\n+44 20 3855 5143\,\,168223781# United Kingdom\, City of London\nPhone conference ID: 168 223 781#
-LOCATION:https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGQ5NjUxMjEtNDBjZi00MjhjLWI5MzYtYTJjYjY3ZjM4ZWJk%40thread.v2/0?context=%7b%22Tid%22%3a%222e9f06b0-1669-4589-8789-10a06934dc61%22%2c%22Oid%22%3a%224eadb54a-a580-48a9-bb33-e85b9b62c7d1%22%7d
+DESCRIPTION:Title: Destination Earth: The Climate Change Adaptation Digital Twin\nPresenters: Ioan Hadade and Sebastian Milinski from ECMWF\n\nAbstract:\n\nWe present the first digital twin framework that operationalizes the production of multi-decadal\, global climate projections at kilometer-scale resolution\, developed within the European Union’s Destination Earth initiative. Using three coupled Earth system models and selected impact-sector applications\, we have built end-to-end workflows for both regular and on-demand climate projections on two EuroHPC supercomputers\, LUMI and MareNostrum5. These workflows produced the first-ever multi-decadal simulations at 5 km resolution across all major Earth system components\, using the same output parameters and grid\, and achieving an average production throughput of 0.6 simulated years per day and a climate data portfolio of more than 10 petabytes. We present the scalability of two of these Earth system models across both CPU- and GPU-based systems at global resolutions up to 1 km\, across atmosphere\, ocean\, land\, and sea-ice\, and report full-machine performance on leading EuroHPC at record breaking efficiency at 1 km resolution.\n\n________________________________________________________________________________\nMicrosoft Teams meeting\n\nJoin:\nhttps://teams.microsoft.com/meet/33374318577657?p=0dtnu3MTqNoYT5vdlQ\n\nMeeting ID:\n333 743 185 776 57\n\nPasscode:\nFy6Jt9Bk
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 END:VEVENT
