@@ -5,27 +5,23 @@ subtitle: International Centre-to-Centre Collaboration Project
 permalink: /
 ---
 
-{% comment %}
-
 # Next webinar
 
-**Date and Time**: [Wednesday, 12th of November at 15h30 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CONTINENTS+Webinar&iso=20251112T1530&p1=304&ah=1).
+**Date and Time**: [Wednesday, 28th of January at 15h00 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CONTINENTS+Webinar&iso=20260128T1500&p1=304&ah=1).
 
-**Title**: Earth Embeddings: Learning Concept Maps in Neural Nets
+**Title**: Destination Earth: The Climate Change Adaptation Digital Twin
 
-**Presenter**: [Marc Rußwurm][marcr], [Wageningen University & Research][WUR].
+**Presenters**: [Ioan Hadade][ioanh] and [Sebastian Milinski][sebastianm], [European Centre for Medium-Range Weather Forecasts][ECMWF].
 
 **Abstract**:  
-What makes a specific location unique? Traditional geospatial variables like temperature, land cover, or precipitation only tell part of the story — they are incomplete, coarse, and often hard to measure.
-Instead, we can train AI to learn implicit representations of the planet directly from imagery and context.
-This talk explores how geolocalization can serve as a powerful self-supervised training objective to build Earth Embeddings — dense, multimodal representations of the planet stored in neural networks.
-By training models to play Satellite GeoGuessr, we teach them to infer a location’s coordinates from its visual appearance, forcing the network to capture the underlying environmental and societal patterns that make each place distinct.
-The talk introduces two approaches: (1) neural location encoders, networks that map coordinates to continuous geospatial signals stored within network weights, and (2) SatCLIP Earth Embeddings, which align imagery and geolocation contrastively to produce rich embeddings encoding each location’s visual and contextual signature.
-These learned concept maps act as a shared embedding space for environmental understanding — directly integrable into AI systems as location tokens or into scientific models as compact, learned representations of Earth.
-
+We present the first digital twin framework that operationalizes the production of multi-decadal, global climate projections at kilometer-scale resolution, developed within the European Union’s Destination Earth initiative.
+Using three coupled Earth system models and selected impact-sector applications, we have built end-to-end workflows for both regular and on-demand climate projections on two EuroHPC supercomputers, LUMI and MareNostrum5.
+These workflows produced the first-ever multi-decadal simulations at 5 km resolution across all major Earth system components, using the same output parameters and grid, and achieving an average production throughput of 0.6 simulated years per day and a climate data portfolio of more than 10 petabytes.
+We present the scalability of two of these Earth system models across both CPU- and GPU-based systems at global resolutions up to 1 km, across atmosphere, ocean, land, and sea-ice, and report full-machine performance on leading EuroHPC at record breaking efficiency at 1 km resolution.
 
 [Download the calendar invite here](continents.ics).
 
+{% comment %}
 {% endcomment %}
 
 # Past webinars
@@ -126,6 +122,9 @@ Earth system models are crucial for simulating environmental processes but deman
 ---
 
 [comment]: # Links
+[ioanh]: https://orcid.org/0000-0002-9049-1952
+[sebastianm]: https://orcid.org/0000-0001-5216-4662
+[ECMWF]: https://www.ecmwf.int/
 [recording_marcr]: https://media.ed.ac.uk/media/t/1_ha5f4r5w
 [slides_marcr]: webinar_slides/2025-11-12_Marc_Russwurm.pdf
 [marcr]: https://marcrusswurm.com/
