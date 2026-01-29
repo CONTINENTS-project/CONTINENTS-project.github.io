@@ -36,7 +36,8 @@ Using three coupled Earth system models and selected impact-sector applications,
 These workflows produced the first-ever multi-decadal simulations at 5 km resolution across all major Earth system components, using the same output parameters and grid, and achieving an average production throughput of 0.6 simulated years per day and a climate data portfolio of more than 10 petabytes.
 We present the scalability of two of these Earth system models across both CPU- and GPU-based systems at global resolutions up to 1 km, across atmosphere, ocean, land, and sea-ice, and report full-machine performance on leading EuroHPC at record breaking efficiency at 1 km resolution.
 
-Recording and slides will be made available soon.
+[Recording][recording_ioanh]  
+[Slides][slides_ioanh]
 
 ---
 
@@ -134,6 +135,8 @@ Earth system models are crucial for simulating environmental processes but deman
 ---
 
 [comment]: # Links
+[recording_ioanh]: https://media.ed.ac.uk/media/t/1_ilfk8wk7
+[slides_ioanh]: webinar_slides/2026-01-28_Ioan_Hadaded.pdf
 [ioanh]: https://orcid.org/0000-0002-9049-1952
 [sebastianm]: https://orcid.org/0000-0001-5216-4662
 [ECMWF]: https://www.ecmwf.int/
