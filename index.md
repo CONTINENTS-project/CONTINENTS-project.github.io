@@ -12,7 +12,7 @@ permalink: /
 
 **Date and Time**: [Tuesday, 10th of March at 15h00 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CONTINENTS+Webinar&iso=20260310T1500&p1=304&ah=1).
 
-**Title**: Scaling and Optimizing AI/ML Workflows in Earth System Science
+**Title**: Scaling AI/ML Training Workflows for Earth System Prediction
 
 **Presenters**: [Negin Sobhani][negins], [National Center for Atmospheric Research][NCAR].
 
