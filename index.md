@@ -7,24 +7,28 @@ permalink: /
 
 {% comment %}
 
+**Date and Time**: [Tuesday, 10th of March at 15h00 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CONTINENTS+Webinar&iso=20260310T1500&p1=304&ah=1).
+[Download the calendar invite here](continents.ics).
 {% endcomment %}
+
 # Next webinar
 
-**Date and Time**: [Tuesday, 10th of March at 15h00 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CONTINENTS+Webinar&iso=20260310T1500&p1=304&ah=1).
+Due to an unforeseen emergency, we have to **re-schedule this webinar to a later date**. We will update this page once we have a new date and we will advertise through our regular channels.
+
+**New Date and Time**: TBC
 
 **Title**: Scaling AI/ML Training Workflows for Earth System Prediction
 
-**Presenters**: [Negin Sobhani][negins], [National Center for Atmospheric Research][NCAR].
+**Presenter**: [Negin Sobhani][negins], [National Center for Atmospheric Research][NCAR].
 
 **Abstract**:  
 
-Artificial intelligence (AI) and machine learning (ML) are increasingly used in Earth system sciences, enabling faster modeling of complex physical processes and improved prediction of weather and climate. In recent years, fully data-driven AI/ML emulators have emerged that model the atmosphere—and other Earth system components—as a whole, offering the capability to generate global medium-range weather forecasts in minutes on a single GPU, a dramatic improvement over the computational demands of traditional Numerical Weather Prediction (NWP) models. Complementing these purely data-driven approaches, hybrid modeling strategies integrate physics-based models with AI/ML components, leveraging the strengths of both paradigms to improve predictive accuracy, enhance interpretability, and reduce computational costs while preserving physical consistency and improving the representation of subgrid-scale processes. Despite these advances, scaling AI/ML workflows to handle the massive, high-dimensional datasets characteristic of Earth system sciences remains challenging, often constrained by GPU memory limitations, I/O bottlenecks, and communication overhead inherent in distributed computing environments.
+Artificial intelligence (AI) and machine learning (ML) are increasingly used in Earth system sciences, enabling faster modelling of complex physical processes and improved prediction of weather and climate. In recent years, fully data-driven AI/ML emulators have emerged that model the atmosphere—and other Earth system components—as a whole, offering the capability to generate global medium-range weather forecasts in minutes on a single GPU, a dramatic improvement over the computational demands of traditional Numerical Weather Prediction (NWP) models. Complementing these purely data-driven approaches, hybrid modelling strategies integrate physics-based models with AI/ML components, leveraging the strengths of both paradigms to improve predictive accuracy, enhance interpretability, and reduce computational costs while preserving physical consistency and improving the representation of subgrid-scale processes. Despite these advances, scaling AI/ML workflows to handle the massive, high-dimensional datasets characteristic of Earth system sciences remains challenging, often constrained by GPU memory limitations, I/O bottlenecks, and communication overhead inherent in distributed computing environments.
 
-This presentation shares our experience in optimizing distributed training workflows for large geospatial datasets to overcome these constraints. We explore strategies to mitigate severe I/O bottlenecks, highlighting the critical role of GPU-native dataloaders in maximizing data throughput while minimizing costly host-device transfers. We then detail how advanced parallelization techniques, such as Distributed Data Parallel (DDP) and Fully Sharded Data Parallel (FSDP), combined with memory-saving methods like mixed-precision training and activation checkpointing, drastically reduce the GPU memory footprint. Finally, we discuss practical solutions for configuring communication backends (e.g., NCCL, MPI, Gloo) to ensure seamless data exchange across multi-node, multi-GPU HPC setups.
+This presentation shares our experience in optimising distributed training workflows for large geospatial datasets to overcome these constraints. We explore strategies to mitigate severe I/O bottlenecks, highlighting the critical role of GPU-native dataloaders in maximising data throughput while minimising costly host-device transfers. We then detail how advanced parallelisation techniques, such as Distributed Data Parallel (DDP) and Fully Sharded Data Parallel (FSDP), combined with memory-saving methods like mixed-precision training and activation checkpointing, drastically reduce the GPU memory footprint. Finally, we discuss practical solutions for configuring communication backends (e.g., NCCL, MPI, Gloo) to ensure seamless data exchange across multi-node, multi-GPU HPC setups.
 
-Our benchmarks demonstrate that integrating these optimizations leads to robust, scalable training workflows for large-scale geoscientific models and significant reductions in training time. Attendees will gain actionable insights and proven strategies for scaling their own AI/ML models, accelerating AI/ML based training for their workflows.
+Our benchmarks demonstrate that integrating these optimisations leads to robust, scalable training workflows for large-scale geoscientific models and significant reductions in training time. Attendees will gain actionable insights and proven strategies for scaling their own AI/ML models, accelerating AI/ML based training for their workflows.
 
-[Download the calendar invite here](continents.ics).
 
 # Past webinars
 
@@ -33,7 +37,7 @@ Our benchmarks demonstrate that integrating these optimizations leads to robust,
 **Presenters**: [Ioan Hadade][ioanh] and [Sebastian Milinski][sebastianm], [European Centre for Medium-Range Weather Forecasts][ECMWF].
 
 **Abstract**:  
-We present the first digital twin framework that operationalizes the production of multi-decadal, global climate projections at kilometer-scale resolution, developed within the European Union’s Destination Earth initiative.
+We present the first digital twin framework that operationalizes the production of multi-decadal, global climate projections at kilometre-scale resolution, developed within the European Union’s Destination Earth initiative.
 Using three coupled Earth system models and selected impact-sector applications, we have built end-to-end workflows for both regular and on-demand climate projections on two EuroHPC supercomputers, LUMI and MareNostrum5.
 These workflows produced the first-ever multi-decadal simulations at 5 km resolution across all major Earth system components, using the same output parameters and grid, and achieving an average production throughput of 0.6 simulated years per day and a climate data portfolio of more than 10 petabytes.
 We present the scalability of two of these Earth system models across both CPU- and GPU-based systems at global resolutions up to 1 km, across atmosphere, ocean, land, and sea-ice, and report full-machine performance on leading EuroHPC at record breaking efficiency at 1 km resolution.
