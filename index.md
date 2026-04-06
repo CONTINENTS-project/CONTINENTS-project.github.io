@@ -6,15 +6,6 @@ permalink: /
 ---
 
 {% comment %}
-
-**Date and Time**: [Tuesday, 10th of March at 15h00 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CONTINENTS+Webinar&iso=20260310T1500&p1=304&ah=1).
-[Download the calendar invite here](continents.ics).
-{% endcomment %}
-
-# Next webinar
-
-Due to an unforeseen emergency, we have to **re-schedule this webinar to a later date**. We will update this page once we have a new date and we will advertise through our regular channels.
-
 **New Date and Time**: TBC
 
 **Title**: Scaling AI/ML Training Workflows for Earth System Prediction
@@ -29,6 +20,25 @@ This presentation shares our experience in optimising distributed training workf
 
 Our benchmarks demonstrate that integrating these optimisations leads to robust, scalable training workflows for large-scale geoscientific models and significant reductions in training time. Attendees will gain actionable insights and proven strategies for scaling their own AI/ML models, accelerating AI/ML based training for their workflows.
 
+
+{% endcomment %}
+
+# Next webinar
+
+**Date and Time**: [Thursday, 16th of March at 16h00 BST](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CONTINENTS+Webinar&iso=20260310T1500&p1=304&ah=1).
+
+**Title**: Accelerating Earth System Modeling by Leveraging a Standardized Coupling Framework for Hybrid Physics-ML Models
+
+**Presenter**: [Ufuk Turuncoglu][ufukt], [National Center for Atmospheric Research][NCAR].
+
+**Abstract**:  
+
+Traditional Earth System Models (ESMs), while foundational to climate and weather research and applications, often face significant computational bottlenecks and struggle with accurately parameterizing complex sub-grid physical processes such as atmospheric convection, clouds, and radiation. Recent progress in Machine Learning (ML) and Artificial Intelligence (AI) provides a promising solution to these constraints by developing computationally efficient, data-driven surrogates for particular model components such as atmospheric solvers, sub-grid scale parameterizations, ensemble generation, and data assimilation to reduce biases.
+
+This study presents a novel coupling architecture designed to seamlessly couple diverse ML-based model components with traditional physics-based Earth System Models to construct hybrid Earth system models with minimal effort. The proposed infrastructure and newly developed GeoGate co-processing component standardize the communication and interactions among the different types of model components, enabling asynchronous execution and flexible swapping of traditional physics components with their AI/ML-based data-driven counterparts to establish a true flexible hybrid modeling environment. We demonstrate that this generic coupling framework allows adaptation to different realistic ESM applications, such as regional configuration that couples atmosphere and ocean models to more sophisticated and multi-component applications that aim for Subseasonal-to-Seasonal (S2S) time scale global prediction. The proposed framework enhances model development flexibility, paving the way for the creation of next-generation computationally efficient and modular ESMs that can leverage the rapid innovation cycles of both physical and machine learning sciences in Earth system modeling while maintaining and, in some cases, improving simulation fidelity across various spatial and temporal scales.
+
+
+[Download the calendar invite here](continents.ics).
 
 # Past webinars
 
@@ -141,7 +151,8 @@ Earth system models are crucial for simulating environmental processes but deman
 ---
 
 [comment]: # Links
-[negins]: https://www.cisl.ucar.edu/directory/negin-sobhanI
+[ufukt]: https://www.cgd.ucar.edu/people/ufuk-turuncoglu
+[negins]: https://www.cisl.ucar.edu/directory/negin-sobhani
 [NCAR]: https://ncar.ucar.edu/
 [recording_ioanh]: https://media.ed.ac.uk/media/t/1_ilfk8wk7
 [slides_ioanh]: webinar_slides/2026-01-28_Ioan_Hadaded.pdf
