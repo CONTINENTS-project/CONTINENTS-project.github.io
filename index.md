@@ -25,7 +25,7 @@ Our benchmarks demonstrate that integrating these optimisations leads to robust,
 
 # Next webinar
 
-**Date and Time**: [Thursday, 16th of March at 16h00 BST](https://www.timeanddate.com/worldclock/fixedtime.html?continent=namerica&sort=2&p1=304&iso=20260416T1600&msg=CONTINENTS%20Webinar&ah=1).
+**Date and Time**: [Thursday, 16th of March at 16h00 BST](https://www.timeanddate.com/worldclock/fixedtime.html?sort=2&p1=304&iso=20260416T1600&msg=CONTINENTS%20Webinar&ah=1).
 
 **Title**: Accelerating Earth System Modeling by Leveraging a Standardized Coupling Framework for Hybrid Physics-ML Models
 
