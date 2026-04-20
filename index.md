@@ -21,11 +21,15 @@ This presentation shares our experience in optimising distributed training workf
 Our benchmarks demonstrate that integrating these optimisations leads to robust, scalable training workflows for large-scale geoscientific models and significant reductions in training time. Attendees will gain actionable insights and proven strategies for scaling their own AI/ML models, accelerating AI/ML based training for their workflows.
 
 
-{% endcomment %}
-
 # Next webinar
 
 **Date and Time**: [Thursday, 16th of March at 16h00 BST](https://www.timeanddate.com/worldclock/fixedtime.html?sort=2&p1=304&iso=20260416T1600&msg=CONTINENTS%20Webinar&ah=1).
+
+[Download the calendar invite here](continents.ics).
+
+{% endcomment %}
+
+# Past webinars
 
 **Title**: Accelerating Earth System Modeling by Leveraging a Standardized Coupling Framework for Hybrid Physics-ML Models
 
@@ -38,9 +42,10 @@ Traditional Earth System Models (ESMs), while foundational to climate and weathe
 This study presents a novel coupling architecture designed to seamlessly couple diverse ML-based model components with traditional physics-based Earth System Models to construct hybrid Earth system models with minimal effort. The proposed infrastructure and newly developed GeoGate co-processing component standardize the communication and interactions among the different types of model components, enabling asynchronous execution and flexible swapping of traditional physics components with their AI/ML-based data-driven counterparts to establish a true flexible hybrid modeling environment. We demonstrate that this generic coupling framework allows adaptation to different realistic ESM applications, such as regional configuration that couples atmosphere and ocean models to more sophisticated and multi-component applications that aim for Subseasonal-to-Seasonal (S2S) time scale global prediction. The proposed framework enhances model development flexibility, paving the way for the creation of next-generation computationally efficient and modular ESMs that can leverage the rapid innovation cycles of both physical and machine learning sciences in Earth system modeling while maintaining and, in some cases, improving simulation fidelity across various spatial and temporal scales.
 
 
-[Download the calendar invite here](continents.ics).
+[Recording][recording_ufukt]  
+[Slides][slides_ufukt]
 
-# Past webinars
+---
 
 **Title**: Destination Earth: The Climate Change Adaptation Digital Twin
 
@@ -152,17 +157,19 @@ Earth system models are crucial for simulating environmental processes but deman
 
 [comment]: # Links
 [ufukt]: https://www.cgd.ucar.edu/people/ufuk-turuncoglu
+[recording_ufukt]: https://media.ed.ac.uk/media/1_2gkovp0h
+[slides_ufukt]: webinar_slides/2026-04-16_Ufuk_Turuncoglu.pdf
 [negins]: https://www.cisl.ucar.edu/directory/negin-sobhani
 [NCAR]: https://ncar.ucar.edu/
-[recording_ioanh]: https://media.ed.ac.uk/media/t/1_ilfk8wk7
-[slides_ioanh]: webinar_slides/2026-01-28_Ioan_Hadaded.pdf
 [ioanh]: https://orcid.org/0000-0002-9049-1952
 [sebastianm]: https://orcid.org/0000-0001-5216-4662
 [ECMWF]: https://www.ecmwf.int/
-[recording_marcr]: https://media.ed.ac.uk/media/t/1_ha5f4r5w
-[slides_marcr]: webinar_slides/2025-11-12_Marc_Russwurm.pdf
+[recording_ioanh]: https://media.ed.ac.uk/media/t/1_ilfk8wk7
+[slides_ioanh]: webinar_slides/2026-01-28_Ioan_Hadade.pdf
 [marcr]: https://marcrusswurm.com/
 [WUR]: https://www.wur.nl/en.htm
+[recording_marcr]: https://media.ed.ac.uk/media/t/1_ha5f4r5w
+[slides_marcr]: webinar_slides/2025-11-12_Marc_Russwurm.pdf
 [lucab]: https://www.sandia.gov/ccr/staff/luca-bertagna
 [SNL]: https://www.sandia.gov/
 [recording_luca]: https://media.ed.ac.uk/media/t/1_qjhbcpwt
