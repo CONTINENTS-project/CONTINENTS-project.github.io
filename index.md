@@ -155,7 +155,7 @@ Earth system models are crucial for simulating environmental processes but deman
 [negins]: https://www.cisl.ucar.edu/directory/negin-sobhani
 [NCAR]: https://ncar.ucar.edu/
 [recording_ioanh]: https://media.ed.ac.uk/media/t/1_ilfk8wk7
-[slides_ioanh]: webinar_slides/2026-01-28_Ioan_Hadaded.pdf
+[slides_ioanh]: webinar_slides/2026-01-28_Ioan_Hadade.pdf
 [ioanh]: https://orcid.org/0000-0002-9049-1952
 [sebastianm]: https://orcid.org/0000-0001-5216-4662
 [ECMWF]: https://www.ecmwf.int/
