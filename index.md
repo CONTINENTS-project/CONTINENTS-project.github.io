@@ -5,6 +5,24 @@ subtitle: International Centre-to-Centre Collaboration Project
 permalink: /
 ---
 
+**Title:** An Overview of the ECMWF's Data Handling Approaches
+
+**Presenter:**  Nicolau Manubens, ECMWF and EPCC
+
+**Abstract:**
+
+Handling voluminous meteorological data for operational pipelines has associated challenges. This presentation will review the current data handling approaches for operational forecasting at ECMWF, starting by an introduction to the MARS ecosystem —a family of software services, tools, and libraries which enable operational applications to efficiently access meteorological data— where an index of the entire data domain is kept, and every two-dimensional data field can be referenced with a unique and scientifically meaningful identifier.
+The presentation will first focus on the FDB library, which abstracts away the HPC file system behind the MARS language and is the operational backbone for data exchange. This will include a discussion on the suitability and performance of the DAOS and Ceph object stores as alternative storage backends for the FDB.
+
+The presentation will then give an overview of Polytope, a technology recently developed by ECMWF which enables granular access to GRIB data (written by FDB or otherwise) with potential to dramatically improve efficiency of downstream applications that require data for specific geographical regions or data points; as well as ongoing developments to support Zarr access to FDB data.
+
+Finally, this will discuss the results of a few I/O benchmarking experiments conducted in NCAR's HPC systems during Nicolau's (EPCC PhD student and ECMWF researcher) recent visit to NCAR, enabled by the CONTINENTS project, where a number of the presented data handling components were used in combination with the MILES-CREDIT framework for machine learning model training and inference.
+
+**Date/Time:** [Thursday, 28th of May at 16h00 Mountain Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CONTINENTS+Webinar&iso=20260528T13&p1=1243&ah=1)).
+
+**Link:** [https://sundog.ucar.edu/public/page/CISL](https://sundog.ucar.edu/public/page/CISL)
+
+
 {% comment %}
 **New Date and Time**: TBC
 
