@@ -18,7 +18,7 @@ The presentation will then give an overview of Polytope, a technology recently d
 
 Finally, this will discuss the results of a few I/O benchmarking experiments conducted in NCAR's HPC systems during Nicolau's (EPCC PhD student and ECMWF researcher) recent visit to NCAR, enabled by the CONTINENTS project, where a number of the presented data handling components were used in combination with the MILES-CREDIT framework for machine learning model training and inference.
 
-**Date/Time:** [Thursday, 28th of May at 16h00 Mountain Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CONTINENTS+Webinar&iso=20260528T13&p1=1243&ah=1).
+**Date/Time:** [Thursday, 28th of May at 13h00 Mountain Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CONTINENTS+Webinar&iso=20260528T13&p1=1243&ah=1).
 
 **Link:** [https://sundog.ucar.edu/public/page/CISL](https://sundog.ucar.edu/public/page/CISL)
 
